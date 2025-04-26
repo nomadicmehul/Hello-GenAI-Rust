@@ -90,13 +90,4 @@ cp .env.example .env
 
 ---
 
-## Security & Open Source Checklist
-- Ensure `.env` is not committed to the repository (add to `.gitignore` if needed)
-- No secrets or sensitive information in code or config
-- `.env.example` is provided for reference
-- License is correct and present
-- All dependencies are open source
-
----
-
 Feel free to open issues or contribute!
