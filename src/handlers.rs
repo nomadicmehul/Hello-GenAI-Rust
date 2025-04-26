@@ -161,7 +161,7 @@ where
             headers.insert(HeaderName::from_static("x-content-type-options"), HeaderValue::from_static("nosniff"));
             headers.insert(HeaderName::from_static("x-frame-options"), HeaderValue::from_static("sameorigin"));
             headers.insert(HeaderName::from_static("x-xss-protection"), HeaderValue::from_static("1; mode=block"));
-            headers.insert(HeaderName::from_static("content-security-policy"), HeaderValue::from_static("default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com"));
+            headers.insert(HeaderName::from_static("content-security-policy"), HeaderValue::from_static("default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com"));
             Ok(res)
         })
     }

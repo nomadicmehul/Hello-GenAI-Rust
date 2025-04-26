@@ -120,7 +120,7 @@
       // Append placeholder for bot's response
       const botDiv = document.createElement('div');
       botDiv.className = 'bot-message';
-      botDiv.textContent = "Bot: typing...";
+      botDiv.textContent = "Mehul is answering, please wait...";
       chatContainer.appendChild(botDiv);
       chatContainer.scrollTop = chatContainer.scrollHeight;
 
@@ -133,7 +133,7 @@
         const data = await response.json();
         if (response.ok) {
           // Use marked to render the response as markdown
-          botDiv.innerHTML = "Bot: " + marked.parse(data.response);
+          botDiv.innerHTML = "Mehul: " + marked.parse(data.response);
         } else {
           botDiv.textContent = "Error: " + data.error;
         }
