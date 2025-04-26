@@ -2,15 +2,12 @@
 
 This is a Rust implementation of the Hello-GenAI application.
 
----
 
 ## 🚀 Docker Model Runner: Fast, Local AI Model Testing
 
 Here we are using Docker Model Runner for a faster, simpler way to run and test AI models locally, right from your existing workflow. Whether you’re experimenting with the latest LLMs or deploying to production, Model Runner brings the performance and control you need, without the friction.
 
 [![Docker Model Runner Demo](https://img.youtube.com/vi/FvOlsXQepBc/0.jpg)](https://youtu.be/FvOlsXQepBc)
-
----
 
 ## Features
 - Structured responses (Markdown)
