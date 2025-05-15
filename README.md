@@ -110,6 +110,6 @@ cp .env.example .env
 | Security         | Non-root user            | Container security                           |
 | API Docs         | Swagger (static)         | API documentation                            |
 | Healthcheck      | curl (in Docker)         | Container health check                       |
-| AI Agent Tool    | [Rfact.ai](https://refact.ai/)                 | Autonomous AI agent for coding and DevOps    |
+| AI Agent Tool    | [Refact.ai](https://refact.ai/)                 | Autonomous AI agent for coding and DevOps    |
 
 Feel free to open issues or contribute!
